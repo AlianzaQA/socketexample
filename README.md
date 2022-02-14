@@ -12,6 +12,7 @@ Then, on the other end you use:
 ```
 socket.on('$messagename', function(data){
     'do stuff with data'
+}
 ```
 
 To get the data. The function will be called any time another end emits. The communications work the same both ways.
